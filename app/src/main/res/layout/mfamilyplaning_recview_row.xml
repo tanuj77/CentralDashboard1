@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+
+    android:weightSum="50">
+
+    <TextView
+        android:id="@+id/tv_fpsrno"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:textColor="@color/Black"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="5"/>
+
+
+    <TextView
+        android:id="@+id/tv_fpstatename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="15"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_ppiucd"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="10"/>
+
+
+    <TextView
+        android:id="@+id/tv_fptotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="10"/>
+
+    <TextView
+        android:id="@+id/tv_fppost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="10"/>
+
+
+</LinearLayout>
+
+
+

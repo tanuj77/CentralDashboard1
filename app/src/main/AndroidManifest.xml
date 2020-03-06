@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.chi.centraldashboard">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Minister.HumanResouces.MiHumanResource"
+
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Minister.Survillance.NPCDCSActivity"
+            android:label="@string/title_activity_npcdcs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.DrugsAndDiagnostics.DVDMSActivity"
+            android:label="@string/title_activity_dvdms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.PendingReferences.MiPendingReferences"
+            android:label="@string/title_activity_mi_pending_references"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.Survillance.HMISActivity"
+            android:label="@string/title_activity_hmis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.MeraAspataalActivity"
+            android:label="@string/title_activity_tmeraaspataal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.ElderlyActivity"
+            android:label="@string/title_activity_elderly"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.Regulations.SugamActivity"
+            android:label="@string/title_activity_tsugam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.EHospitalActivity"
+            android:label="@string/title_activity_tehospital"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.OrsActivity"
+            android:label="@string/title_activity_tors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.RCHActivity"
+            android:label="@string/title_activity_trch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.MhealthActivity"
+            android:label="@string/title_activity_tmhealth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.CGHSActivity"
+            android:label="@string/title_activity_t_cghs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.PMJAYActivity"
+            android:label="@string/title_activity_t_pmjay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.HealthCareInfrastructure.NHRRDataActivity"
+            android:label="@string/title_activity_t_nhrr"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.HealthCareInfrastructure.PMSSYDataActivity"
+            android:label="@string/title_activity_tpmssy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.InternationalHealth.MiInternationalHealth"
+            android:label="@string/title_activity_mi_international_health"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.Regulations.MiRegulations"
+            android:label="@string/title_activity_mi_regulations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.DrugsAndDiagnostics.MiDrugsAndDiagnostics"
+            android:label="@string/title_activity_mi_drugs_and_diagnostics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.MiQualityOfHealthServiceActivity"
+            android:label="@string/title_activity_mi_quality_of_health_service"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.Survillance.PbsActivity"
+            android:label="@string/title_activity_pbs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.Survillance.IhipActivity"
+            android:label="@string/title_activity_ihip"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".Minister.Survillance.MiSurvillanceActivity"
+            android:label="@string/title_activity_mi_survillance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginTabActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".Minister.MinisterMainActivity"
+            android:label="@string/title_activity_minister_programs"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreen"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Minister.HealthCareInfrastructure.MiHealthCareInfrastructureActivity" />
+        <activity android:name=".Minister.HealthServiceDelivery.MiHealthServiceDeliveryActivity" />
+        <activity
+            android:name=".Minister.InternationalHealth.InternationalHealthActivity"
+            android:label="@string/title_activity_internationalhealth" />
+        <activity android:name=".AboutUsActivity" />
+        <activity
+            android:name=".Minister.Regulations.SugamRecyclerviewActivity"
+            android:label="@string/title_activity_tsugam" />
+        <activity
+            android:name=".Minister.HealthCareInfrastructure.AmbulanceActivity"
+            android:label="@string/title_activity_ambulance" />
+        <activity
+            android:name=".Minister.HealthCareInfrastructure.NOTPActivity"
+            android:label="@string/title_activity_notp" />
+        <activity
+            android:name=".Minister.HealthCareInfrastructure.BloodBankActivity"
+            android:label="@string/title_activity_bloodbank" />
+        <activity
+            android:name=".Minister.HealthCareInfrastructure.FRUActivity"
+            android:label="@string/title_activity_fru" />
+        <activity
+            android:name=".Minister.HealthCareInfrastructure.DialysisActivity"
+            android:label="@string/title_activity_dialysis" />
+        <activity
+            android:name=".Minister.DrugsAndDiagnostics.FreeDSIActivity"
+            android:label="@string/title_activity_free" />
+        <activity
+            android:name=".Minister.DrugsAndDiagnostics.AmritActivity"
+            android:label="@string/title_activity_amrit" />
+        <activity
+            android:name=".Minister.DrugsAndDiagnostics.HPEActiviy"
+            android:label="@string/title_activity_hpe" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.QualityAssuranceActivity"
+            android:label="@string/title_activity_qa" />
+        <activity
+            android:name=".Minister.PendingReferences.ATRActivity"
+            android:label="@string/title_activity_atr" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.FamilyPlaningActivity"
+            android:label="@string/title_activity_familyplaning" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.MaternalHealthActivity"
+            android:label="@string/title_activity_maternalhealth" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.ImmunizationActivity"
+            android:label="@string/title_activity_immunization" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.ChildHealthActivity"
+            android:label="@string/title_activity_childhealth" />
+        <activity
+            android:name=".Minister.Survillance.NCDCActivity"
+            android:label="@string/title_activity_ncdc" />
+        <activity
+            android:name=".Minister.Survillance.NTCPActivity"
+            android:label="@string/title_activity_ntcp" />
+        <activity
+            android:name=".Minister.Survillance.LeptospirosisActivity"
+            android:label="@string/title_activity_lepto" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.CEAActivity"
+            android:label="@string/title_activity_cea" />
+        <activity
+            android:name=".Minister.HealthServiceDelivery.EMRActivity"
+            android:label="@string/title_activity_emr" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.FSSAIActivity"
+            android:label="@string/title_activity_fssai" />
+        <activity
+            android:name=".Minister.QualityOfHealthServices.RightToInformationActivity"
+            android:label="@string/title_activity_rti" />
+        <activity
+            android:name=".Minister.Survillance.DDAPActivity"
+            android:label="@string/title_activity_ddap" />
+        <activity
+            android:name=".Minister.HumanResouces.HRActivity"
+            android:label="@string/title_activity_hr" />
+        <activity
+            android:name=".Minister.HumanResouces.NursingActivity"
+            android:label="@string/title_activity_nursing" />
+        <activity
+            android:name=".Minister.Survillance.NACOActivity"
+            android:label="@string/title_activity_naco" />
+        <activity
+            android:name=".Minister.Survillance.PCZDActivity"
+            android:label="@string/title_activity_pczd" />
+        <activity
+            android:name=".Minister.Survillance.AMRContainmentActivity"
+            android:label="@string/title_activity_amr" />
+        <activity
+            android:name=".Minister.Survillance.NVBDCPActivity"
+            android:label="@string/title_activity_nvbdcp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Minister.Survillance.NPPCFActivity"
+            android:label="@string/title_activity_nppcf" />
+        <activity
+            android:name=".Minister.Survillance.NPPCDActivity"
+            android:label="@string/title_activity_nppcd" />
+        <activity
+            android:name=".Minister.Survillance.VHPActivity"
+            android:label="@string/title_activity_vhp" />
+        <activity
+            android:name=".Minister.Survillance.NLEPActivity"
+            android:label="@string/title_activity_nlep" />
+        <activity
+            android:name=".Minister.Survillance.NFHS_SRSActivity"
+            android:label="@string/title_activity_nfhs" />
+        <activity
+            android:name=".Minister.HumanResouces.CommunityProcessActivity"
+            android:label="@string/title_activity_cp" />
+    </application>
+
+</manifest>

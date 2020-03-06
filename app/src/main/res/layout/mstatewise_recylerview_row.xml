@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/tv_srno"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_statename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+
+</LinearLayout>

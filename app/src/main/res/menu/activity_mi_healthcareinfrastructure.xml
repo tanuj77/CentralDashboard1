@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/navbar_group_healthcare"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/menu_home" />
+
+
+        <item
+            android:id="@+id/nav_pmssy"
+            android:icon="@drawable/mipmssy"
+            android:title="@string/menu_pmssy" />
+
+        <item
+            android:id="@+id/nav_nhrr"
+            android:icon="@drawable/navdrawer_nhrr"
+            android:title="@string/menu_nhrr" />
+
+        <item
+            android:id="@+id/nav_budget"
+            android:icon="@drawable/mibudget"
+            android:title="@string/menu_budget" />
+
+        <item
+            android:id="@+id/nav_nin"
+            android:icon="@drawable/navdrawer_nin"
+            android:title="@string/menu_nin" />
+
+
+        <item
+            android:id="@+id/nav_ambulance"
+            android:icon="@drawable/navdrawer_ambulances"
+            android:title="@string/menu_ambulance" />
+
+        <item
+            android:id="@+id/nav_notp"
+            android:icon="@drawable/navdrawer_notp"
+            android:title="@string/menu_notp" />
+
+
+        <item
+            android:id="@+id/nav_bloodbank"
+            android:icon="@drawable/navdrawer_bloodbank"
+            android:title="@string/menu_bloodbank" />
+
+        <item
+            android:id="@+id/nav_nhmfinance"
+            android:icon="@drawable/navdrawer_nhmf"
+            android:title="@string/menu_nhmfinance" />
+
+
+        <item
+            android:id="@+id/nav_fru"
+            android:icon="@drawable/navdrawer_fru"
+            android:title="@string/menu_fru" />
+
+        <item
+            android:id="@+id/nav_dialysis"
+            android:icon="@drawable/navdrawer_dialysis"
+            android:title="@string/menu_dialysis" />
+
+        <item
+            android:id="@+id/nav_hospitalsection"
+            android:icon="@drawable/navdrawer_hospitalsection"
+            android:title="@string/menu_hospitalsection" />
+    </group>
+
+    <!--<item android:title="Communicate">--><!--<menu>--><!--<item--><!--android:id="@+id/nav_share"--><!--android:icon="@drawable/ic_menu_share"--><!--android:title="@string/menu_share" />--><!--<item--><!--android:id="@+id/nav_send"--><!--android:icon="@drawable/ic_menu_send"--><!--android:title="@string/menu_send" />--><!--</menu>--><!--</item>-->
+
+</menu>

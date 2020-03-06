@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ContactUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+          >
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:background="#f58020"
+                android:padding="5dp"
+                android:paddingLeft="20dp"
+                android:text="Contact Us"
+                android:textColor="@color/White" />
+
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                   android:id="@+id/heading_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+
+                   android:text="Name : "
+                   android:textColor="@color/Black"
+                   android:textStyle="bold" />
+
+                   <TextView
+                   android:id="@+id/heading_designation"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:text="Designation : "
+
+                   android:textColor="@color/Black"
+                   android:textStyle="bold" />
+
+                   <TextView
+                   android:id="@+id/heading_emailid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:text="E-mail Id : "
+
+                   android:textColor="@color/Black"
+                   android:textStyle="bold" />
+
+                   <TextView
+                   android:id="@+id/heading_ext"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:text="Extension : "
+
+                   android:textColor="@color/Black"
+                   android:textStyle="bold" />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:id="@+id/heading_name2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="5dp"
+                       android:text="Sh. Ankit Tripathi"
+
+
+                       android:textColor="@color/Black" />
+
+                   <TextView
+                       android:id="@+id/heading_designation2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="5dp"
+                       android:text="Additional Director"
+
+
+                       android:textColor="@color/Black" />
+
+                   <TextView
+                       android:id="@+id/heading_emailid2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="5dp"
+                       android:text="at@nihfw.org"
+
+
+                       android:textColor="@color/Black" />
+
+                   <TextView
+                       android:id="@+id/heading_ext2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="5dp"
+                       android:text=" 264"
+
+
+                       android:textColor="@color/Black" />
+
+
+
+               </LinearLayout>
+           </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/heading_nameg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:text="Name : "
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/heading_designationg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Designation : "
+
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/heading_emailidg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="E-mail Id : "
+
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/heading_extg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Extension : "
+
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/heading_name2g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Sh. Gaurav Sharma"
+
+
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:id="@+id/heading_designation2g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Deputy Director (Technical)"
+
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:id="@+id/heading_emailid2g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="gaurav.sharma@nihfw.org"
+
+
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:id="@+id/heading_ext2g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text=" 262"
+
+
+                        android:textColor="@color/Black" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/ncu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="National Coordination Unit"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/chi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Centre for Health Informatics (CHI)"
+
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:id="@+id/iv_adrress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_account_balance_black_24dp"/>
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:id="@+id/iv_phoneno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_phone_in_talk_black_24dp"/>
+                <TextView
+                    android:id="@+id/tv_phoneno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+</FrameLayout>

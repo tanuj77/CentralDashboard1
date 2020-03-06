@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_ihip"
+            android:icon="@drawable/surveillance"
+            android:title="@string/menu_ihip" />
+        <item
+            android:id="@+id/nav_hmis"
+            android:icon="@drawable/navdrawer_hmis"
+            android:title="@string/menu_hmis" />
+        <item
+            android:id="@+id/nav_ncdc"
+            android:icon="@drawable/navdrawer_ncdc"
+            android:title="@string/menu_ncdc" />
+
+        <item
+            android:id="@+id/nav_ntcp"
+            android:icon="@drawable/navdrawer_ntcp"
+            android:title="@string/menu_ntcp" />
+        <item
+            android:id="@+id/nav_ddap"
+            android:icon="@drawable/navdrawer_ddap"
+            android:title="@string/menu_ddap" />
+
+        <item
+            android:id="@+id/nav_naco"
+            android:icon="@drawable/navdrawer_naco"
+            android:title="@string/menu_naco" />
+
+        <item
+            android:id="@+id/nav_nrcp"
+            android:icon="@drawable/navdrawer_nrcp"
+            android:title="@string/menu_nrcp" />
+        <item
+            android:id="@+id/nav_lepto"
+            android:icon="@drawable/navdrawer_leptospirosis"
+            android:title="@string/menu_lepto" />
+
+
+
+
+        <item
+            android:id="@+id/nav_vhp"
+            android:icon="@drawable/navdrawer_vhp"
+            android:title="@string/menu_vhp" />
+
+        <item
+            android:id="@+id/nav_nlep"
+            android:icon="@drawable/navdrawer_nlep"
+            android:title="@string/menu_nlep" />
+        <item
+            android:id="@+id/nav_nppcf"
+            android:icon="@drawable/navdrawer_nppcf"
+            android:title="@string/menu_nppcf" />
+
+        <item
+            android:id="@+id/nav_nppcd"
+            android:icon="@drawable/navdrawer_nppcd"
+            android:title="@string/menu_nppcd" />
+
+        <item
+            android:id="@+id/nav_pbs"
+
+            android:title="@string/menu_pbs" />
+
+        <item
+            android:id="@+id/nav_pczd"
+            android:icon="@drawable/navdrawer_pczd"
+            android:title="@string/menu_pczd" />
+
+        <item
+            android:id="@+id/nav_npcdcs"
+            android:icon="@drawable/navdrawer_npcds"
+            android:title="@string/menu_npcdcs" />
+
+        <item
+            android:id="@+id/nav_amr"
+            android:icon="@drawable/navdrawer_amr"
+            android:title="@string/menu_amr" />
+        <item
+            android:id="@+id/nav_nvdcp"
+            android:icon="@drawable/navdrawer_nvbdcp"
+            android:title="@string/menu_nvbdcp" />
+
+        <item
+            android:id="@+id/nav_nfhs"
+            android:icon="@drawable/navdrawer_nfhs"
+            android:title="@string/menu_nfhs" />
+
+
+        <!--<item-->
+        <!--android:id="@+id/nav_slideshow"-->
+        <!--android:icon="@drawable/ic_menu_slideshow"-->
+        <!--android:title="@string/menu_slideshow" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_tools"-->
+        <!--android:icon="@drawable/ic_menu_manage"-->
+        <!--android:title="@string/menu_tools" />-->
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="@string/menu_share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="@string/menu_send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_hwc"
+            android:icon="@drawable/navdrawer_hwc"
+            android:title="@string/menu_ab_hwc" />
+        <item
+            android:id="@+id/nav_pmjay"
+            android:icon="@drawable/navdrawer_pmjay"
+
+            android:title="@string/menu_ab_pmjay" />
+        <item
+            android:id="@+id/nav_cghs"
+            android:icon="@drawable/navdrawer_cghs"
+            android:title="@string/menu_cghs" />
+
+        <item
+            android:id="@+id/nav_esanjeevani"
+            android:icon="@drawable/navdrawer_esanjevni"
+            android:title="@string/menu_esanjeevani" />
+
+        <item
+            android:id="@+id/nav_hcoe"
+            android:icon="@drawable/minphce"
+            android:title="@string/menu_nphce" />
+        <item
+            android:id="@+id/nav_tb"
+            android:icon="@drawable/mitb_control"
+            android:title="@string/menu_tb" />
+        <item
+            android:id="@+id/nav_mhealth"
+            android:icon="@drawable/mim_health"
+            android:title="@string/menu_m_health" />
+        <item
+            android:id="@+id/nav_rch"
+            android:icon="@drawable/michild_health"
+            android:title="@string/menu_rch" />
+        <item
+            android:id="@+id/nav_familyplaning"
+            android:icon="@drawable/navdrawer_familyplaning"
+            android:title="@string/menu_familyplaning" />
+        <item
+            android:id="@+id/nav_maternalhealth"
+            android:icon="@drawable/navdrawer_maternalhealth"
+            android:title="@string/menu_maternalhealth" />
+
+        <item
+            android:id="@+id/nav_immunization"
+            android:icon="@drawable/navdrawer_immunization"
+            android:title="@string/menu_immunization" />
+        <item
+            android:id="@+id/nav_childhealth"
+            android:icon="@drawable/michild_health"
+            android:title="@string/menu_childhealth" />
+
+        <item
+            android:id="@+id/nav_adolescent"
+            android:icon="@drawable/navdrawer_adolescent"
+            android:title="@string/menu_adolescenthealth" />
+
+        <item
+            android:id="@+id/nav_nvhcp"
+            android:icon="@drawable/navdrawer_nvhcp"
+            android:title="@string/menu_nvhcp" />
+
+        <item
+            android:id="@+id/nav_npcb"
+            android:icon="@drawable/navdrawer_npcb"
+            android:title="@string/menu_npcb" />
+
+        <item
+            android:id="@+id/nav_nmhp"
+            android:icon="@drawable/navdrawer_nmhp"
+            android:title="@string/menu_nmhp" />
+
+        <item
+            android:id="@+id/nav_nohp"
+            android:icon="@drawable/navdrawer_nohp"
+            android:title="@string/menu_nohp" />
+
+        <item
+            android:id="@+id/nav_emr"
+            android:icon="@drawable/navdrawer_emr"
+            android:title="@string/menu_emr" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="@string/menu_share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="@string/menu_send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

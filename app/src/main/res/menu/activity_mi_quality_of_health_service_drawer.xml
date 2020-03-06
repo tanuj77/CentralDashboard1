@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_mera_aspataal"
+            android:icon="@drawable/navdrawer_meraaspataal"
+            android:title="@string/menu_mera_aspataal" />
+        <item
+            android:id="@+id/nav_ors"
+            android:icon="@drawable/navdrawer_ors"
+            android:title="@string/menu_ors" />
+        <item
+            android:id="@+id/nav_ehospital"
+            android:icon="@drawable/navdrawer_ehospital"
+            android:title="@string/menu_ehospital" />
+
+        <item
+            android:id="@+id/nav_laqshya"
+            android:icon="@drawable/laqshya"
+            android:title="@string/menu_laqshya" />
+
+        <item
+            android:id="@+id/nav_nuhm"
+            android:icon="@drawable/nuhm"
+            android:title="@string/menu_nuhm" />
+
+        <item
+            android:id="@+id/nav_rti"
+            android:icon="@drawable/navdrawer_righttoinfo"
+            android:title="@string/menu_rti" />
+
+        <item
+            android:id="@+id/nav_qualityassurance"
+            android:icon="@drawable/navdrawer_qualityassurance"
+            android:title="@string/menu_qa" />
+        <item
+            android:id="@+id/nav_fssai"
+            android:icon="@drawable/navdrawer_fssai"
+            android:title="@string/menu_fssai" />
+
+        <item
+            android:id="@+id/nav_cea"
+            android:icon="@drawable/navdrawer_cea"
+            android:title="@string/menu_cea" />
+    </group>
+
+
+</menu>

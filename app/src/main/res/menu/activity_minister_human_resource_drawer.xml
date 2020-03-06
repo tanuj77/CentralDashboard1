@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_communityprocess"
+            android:icon="@drawable/navdrawer_cp"
+            android:title="@string/menu_communityProcess" />
+        <item
+            android:id="@+id/nav_humanresources"
+            android:icon="@drawable/navdrawer_hr"
+            android:title="@string/menu_humanResouce" />
+        <item
+            android:id="@+id/nav_alliedhealthsciences"
+            android:icon="@drawable/navdrawer_ahs"
+            android:title="@string/menu_alliedHealthSciences" />
+        <item
+            android:id="@+id/nav_nursing"
+            android:icon="@drawable/navdrawer_nursing"
+            android:title="@string/menu_nursing" />
+        <item
+            android:id="@+id/nav_medicaleducation"
+            android:icon="@drawable/navdrawer_medicaleducation"
+            android:title="@string/menu_medicalEducation" />
+    </group>
+
+
+
+</menu>

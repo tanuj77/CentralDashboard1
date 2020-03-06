@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+
+    android:weightSum="9">
+
+    <TextView
+        android:id="@+id/tv_nursing1"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:textColor="@color/Black"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:id="@+id/tv_nursing2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_nursing3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:id="@+id/tv_nursing4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_nursing5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_nursing6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_nursing7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_nursing8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_nursing9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
+
+
+

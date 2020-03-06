@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_orange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/btn_orange"
+                    android:text="Orange"
+                    android:textColor="@color/White" />
+
+                <TextView
+                    android:id="@+id/tv_oheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Total AIIMS (Approved and Functional)"
+                    android:maxLines="2"
+                    android:textColor="@color/Black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:background="@drawable/btn_cornflowerblue"
+                    android:text="Blue"
+                    android:textColor="@color/White" />
+
+                <TextView
+                    android:id="@+id/tv_bheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Medical College (MC) Upgradation"
+                    android:textColor="@color/Black"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_search"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Search"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="5dp"-->
+            <!--android:background="@drawable/rectangular_et"/>-->
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_buttons">
+
+            <ScrollView
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/ll_buttons"
+                android:layout_marginBottom="50dp">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rec_view_pmssydata"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:scrollbars="vertical">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+            </ScrollView>
+        </HorizontalScrollView>
+    </LinearLayout>
+</RelativeLayout>
+

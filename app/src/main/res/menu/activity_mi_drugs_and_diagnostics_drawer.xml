@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_dvdms"
+            android:icon="@drawable/navdrawer_dvdms"
+            android:title="@string/menu_dnv" />
+        <item
+            android:id="@+id/nav_freedsi"
+            android:icon="@drawable/navdrawer_freediagno"
+            android:title="@string/menu_free" />
+        <item
+            android:id="@+id/nav_amrit"
+            android:icon="@drawable/navdrawer_amrit"
+            android:title="@string/menu_amrit" />
+
+        <item
+            android:id="@+id/nav_hpe"
+            android:icon="@drawable/navdrawer_healthpublicent"
+            android:title="@string/menu_hpe" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+
+    android:weightSum="11">
+
+
+    <TextView
+        android:id="@+id/tv_ceasrno"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/report_text_size" />
+
+
+    <TextView
+        android:id="@+id/tv_ceastatename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_allopathy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_ayurveda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_unani"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_siddha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_homeopathy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_yoga"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_naturapathy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_sowa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size" />
+
+
+</LinearLayout>

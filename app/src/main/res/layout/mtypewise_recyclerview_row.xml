@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="4dp" android:paddingRight="4dp"
+    android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <TextView android:id="@+id/tv_srno"
+
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="@dimen/report_text_size"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_statename"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/report_text_size"/>
+
+
+
+
+
+    <TextView android:id="@+id/tv_sc"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:textSize="@dimen/report_text_size"/>
+
+
+
+    <TextView android:id="@+id/tv_phc"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+    <TextView android:id="@+id/tv_ch"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+
+    <TextView android:id="@+id/tv_sdh"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+
+    <TextView android:id="@+id/tv_mch"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+    <TextView android:id="@+id/tv_polyclinic"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+    <TextView android:id="@+id/tv_diagnostic"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+    <TextView android:id="@+id/tv_bloodbank"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+    <TextView android:id="@+id/tv_pharmacy"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"
+        />
+
+    <TextView android:id="@+id/tv_physiotherapy"
+        android:textColor="@color/DarkBlue"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/report_text_size"/>
+</LinearLayout>

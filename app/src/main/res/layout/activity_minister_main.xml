@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_logos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cl">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:src="@drawable/cdlogo" />
+
+        <ImageView
+            android:id="@+id/ivdigitalindia"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/ivswachbharat"
+
+            android:src="@drawable/digital_india" />
+
+        <ImageView
+            android:id="@+id/ivswachbharat"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/ivnhplogo"
+
+            android:src="@drawable/swach_bharat" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView11"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginStart="5dp"-->
+        <!--android:layout_marginLeft="5dp"-->
+
+        <!--android:src="@drawable/ashok" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginStart="50dp"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:text="@string/mohf"-->
+        <!--android:textColor="@color/Black"-->
+
+        <!--android:textSize="7dp" />-->
+
+        <ImageView
+            android:id="@+id/ivnhplogo"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:src="@drawable/nhplogo" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_pmstatement"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/ll_logos"
+        android:src="@drawable/pmstatement"
+
+        />
+
+    <!--<View-->
+    <!--android:id="@+id/view_line"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_below="@id/ll_logos"-->
+    <!--android:layout_marginTop="4dp"-->
+    <!--android:background="@android:color/darker_gray" />-->
+
+    <!--<ScrollView-->
+    <!--android:id="@+id/scrollview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/ll_photos">-->
+    <RelativeLayout
+        android:id="@+id/ll_photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_pmstatement"
+        android:layout_marginTop="4dp">
+
+        <ImageView
+            android:id="@+id/iv_harsh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:src="@drawable/drharsh_vardhan" />
+
+
+        <ImageView
+            android:id="@+id/iv_ashwini"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:src="@drawable/ashwinichoubey" />
+
+    </RelativeLayout>
+
+    <!--<ScrollView-->
+    <!--android:id="@+id/scrollview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/ll_photos">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:orientation="vertical">-->
+
+    <ExpandableListView
+        android:id="@+id/elv_pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_photos"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="10sp" />
+
+
+    <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+    <!--<android.support.v7.widget.AppCompatImageView-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginBottom="-7dp"-->
+    <!--android:src="@drawable/login_footer" />-->
+</RelativeLayout>

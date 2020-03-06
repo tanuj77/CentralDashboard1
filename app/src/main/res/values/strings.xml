@@ -1,0 +1,337 @@
+<resources>
+    <string name="app_name">CentralDashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_aboutus">About Us</string>
+    <string name="action_contactus">Contact Us</string>
+    <string name="action_logout">Log Out</string>
+
+    <string name="introduction">The Ministry of Health and Family Welfare (MoHFW) has developed this Central Dashboard for monitoring of various health programs/schemes being run by the ministry. The Central Dashboard is a comprehensive information management tool which allows visual tracking and analysis of Key Performance Indicators across all healthcare institutions and programs under the MoHFW.\n\n
+    The objective of this initiative is to build a comprehensive single platform to access information on Key Performance Indicators (KPIs), sourced from various public health information systems/management Information systems. This information aggregated and visualized on a single portal, will be vital for data driven program planning, monitoring, and management. As new schemes or programs are developed by the MoHFW, the Dashboard system is envisioned to organically incorporate future programs and help in measuring progress\n\n
+
+    </string>
+    <string name="dotd">The Dashboard has been developed by the CHI team with the kind collaboration and support from all program teams within the MoHFW. The project has been supervised under the guidance of the eHealth team within the MoHFW\n\n</string>
+    <string name="sotd">The Dashboard divides the Health System into 9 major Categories, each with its own unique subcategories\n
+1.Health Infrastructure: Health and Wellness Centers(HWCs), PMSSY, Budget, NIN, Ambulances, NOTTO, Blood Banks, FRUs and Dialysis\n
+    2.Health Human Resources: Human resources, Nursing, Medical Education, Village health and Sanitation Committee, Allied Health Sciences\n
+    3.Health Service Delivery:Central Government Health Scheme (CGHS), Health Care of Elderly, TB Control (Nikshay), m-Health, Reproductive and Child Health (RCH), FamilyPlanning, Maternal Health,Immunization,Child Health,Adolescent Health,Viral Hepatitis Control (NVHCP),Blindness Control (NPCB),National Oral Health (NOHP),Pradhan Mantri Jan ArogyaYojana\n
+    4.Surveillance:Integrated Health Information Platform (IHIP),AIDS Control (NACO),Rabies Control (NRCP),Leptospirosis Control,Viral Hepatitis (VHP),Fluorosis Control (NPPCF),Deafness Control (NPPCD),Population-Based Screening (PBS),Zoonotic Diseases (PCZD)\n
+    5.Quality of Health Services:MeraAspataal, LaQshya, National Urban Health Mission (NUHM), Right to Information\n
+    6.Drugs and Diagnostics:Drug and Vaccine Distribution Management, Affordable Medicines (AMRIT), Health Public Enterprises\n
+    7.Regulations: SUGAM (CDSCO)\n
+    8.International Health: Memorandum of Understanding (MOU), Statement of Need (SON)\n
+    9.Pending References: Action Taken Report (ATR)\n
+    The dashboard sources all the data for the programs and schemes directly from the program teams. Each of the sub categories have multiple KPIs displayed within them\n\n
+</string>
+
+    <string name="uotd">It is further envisioned that the Dashboard system would collect data from existing public health information systems (i.e. HMIS, IDSP, MCTS, Nikshay etc) through APIs/Web Services to generate KPIs. Exact number and type of the KPIs would be developed in consultation with the MoHFW officials, program teams and domain experts. Based on the needs/roles of the various users/ program managers the KPIs/reports can be generated separately form the Dashboard.\n
+    It will be ensured that various MoHFW users/officers have access to the standard set of KPIs as per their role. In addition, all users will be given privileges to get their own set of KPIs developed and displayed based on need. The dashboard system will have such flexibility to allow for users to create their own indicators.\n\n
+    </string>
+
+    <string name="address">National Institute of Health and Family Welfare\n
+Baba Gang Nath Marg, Munirka, New Delhi-110067.</string>
+    <string name="phone">Phones: 91-11-2616 5959</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">SlideShow</string>
+    <string name="menu_tools">Tools</string>
+
+
+    <string name="about_heading"><b><u>Central Dashboard</u></b></string>
+    <string name="about_one">The Central Dashboard is a comprehensive information management tool which allows visual tracking and analysis of Key Performance Indicators. It can be leveraged in powerful ways:</string>
+    <string name="about_two">To access information on Key Performance Indicators (KPIs) of all MoHFW programmes on a single portal</string>
+    <string name="about_three">	To present visualizations that display a bird’s eye view of programme performance,for data driven decision-making</string>
+    <string name="about_four"> To evaluate national status of all health-system components</string>
+
+    <string name="preference_key_file">com.example.chi.nin.preference_key_file</string>
+    <string name="preference_id">PREFERENCE_ID</string>
+    <string name="preference_name_key">PREFERENCE_NAME_KEY</string>
+    <string name="preference_email_key">PREFERENCE_EMAIL_KEY</string>
+    <string name="preference_stateid_key">PREFERENCE_STATEID_KEY</string>
+    <string name="preference_statename_key">PREFERENCE_STATENAME_KEY</string>
+    <string name="preference_districtid_key">PREFERENCE_DISTRICTID_KEY</string>
+    <string name="preference_districtname_key">PREFERENCE_DISTRICTNAME_KEY</string>
+    <string name="preference_role_key">PREFERENCE_ROLE_KEY</string>
+    <string name="preference_rolevalue_key">PREFERENCE_ROLEVALUE_KEY</string>
+    <string name="preference_nin_id">PREFERENCE_NIN_ID</string>
+    <string name="title_activity_minister_programs">MinisterProgramsActivity</string>
+
+
+    <string name="mohf"><b>MINISTRY OF HEALTH AND FAMILY WELFARE</b> \n DEPARTMENT OF HEALTH AND FAMILY WELFARE
+
+    </string>
+    <string name="menu_pmssy">Pradhan Mantri Swasthya Suraksha Yojana (PMSSY)</string>
+    <string name="menu_nhrr">National Health Resource Repository</string>
+    <string name="menu_budget">Budget</string>
+    <string name="menu_nin">National Identification Number(NIN)</string>
+    <string name="menu_ambulance">Ambulances</string>
+    <string name="menu_notp">Organs and Tissue Transplant(NOTP)</string>
+    <string name="menu_bloodbank">Blood Bank</string>
+    <string name="menu_nhmfinance">NHM Finance</string>
+    <string name="menu_fru">First Referral Unit(FRU)</string>
+    <string name="menu_dialysis">Dialysis</string>
+    <string name="menu_hospitalsection">Hospital Section</string>
+    <string name="title_activity_mi_health_service_delivery">MiHealthServiceDeliveryActivity
+    </string>
+
+    <string name="menu_ab_hwc">Ayushman Bharat-Health and Wellness Center (AB-HWC)</string>
+    <string name="menu_ab_pmjay">Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)</string>
+    <string name="menu_cghs">Central Goverment Health Sscheme (CGHS)</string>
+    <string name="menu_esanjeevani">eSanjeevani</string>
+    <string name="menu_nphce">Health Care Of The Elderly (NPHCE)</string>
+    <string name="menu_tb">TB Control (Nikshay)</string>
+    <string name="menu_m_health">M-Health</string>
+    <string name="menu_rch">Reproductive And Child Health (RCH)</string>
+    <string name="menu_familyplaning">Family Planing</string>
+    <string name="menu_maternalhealth">Maternal Health</string>
+    <string name="menu_immunization">Immunization</string>
+    <string name="menu_childhealth">Child Health</string>
+    <string name="menu_adolescenthealth">Adolescent Health</string>
+    <string name="menu_nvhcp">Viral Hepatitis Control(NVHCP)</string>
+    <string name="menu_npcb">Blindness Control(NPCB)</string>
+    <string name="menu_nmhp">National Mental Health Programme(NMHP)</string>
+    <string name="menu_nohp">National Oral Health(NOHP)</string>
+    <string name="menu_emr">Emergency Medical Relief(EMR)</string>
+
+    <string name="menu_ihip">Integrated Health Information Platform(IHIP)</string>
+    <string name="menu_ncdc">National Center for Disease Control(NCDC)</string>
+    <string name="menu_ntcp">Tobacco Control(NTCP)</string>
+    <string name="menu_ddap">Drug De-Addiction(DDAP)</string>
+    <string name="menu_naco">AIDS Control(NACO)</string>
+    <string name="menu_nrcp">Rabies Control(NRCP)</string>
+    <string name="menu_lepto">Leptospirosis Control</string>
+    <string name="menu_pbs">Population-Based Screening (PBS)/NCD</string>
+    <string name="menu_hmis">Health Management Information System(HMIS)</string>
+    <string name="menu_vhp">Viral Hepatitis(VHP)</string>
+    <string name="menu_nlep">Leprosy Eradication(NLEP)</string>
+    <string name="menu_nppcf">Fluorosis Control(NPPCF)</string>
+    <string name="menu_nppcd">Deafness Control(NPPCD)</string>
+    <string name="menu_pczd">Zoonotic Diseases(PCZD)</string>
+    <string name="menu_npcdcs">NPCDCS</string>
+    <string name="menu_amr">AMR Containment</string>
+    <string name="menu_nvbdcp">National Vector Borne Disease Control Programme(NVBDCP)</string>
+    <string name="menu_nfhs">Statistics Division(NFHS and SRS)</string>
+    <string name="menu_mera_aspataal">Mera Aspataal</string>
+    <string name="menu_ors">Online Registration System(ORS)</string>
+    <string name="menu_ehospital">E-hospital</string>
+    <string name="menu_laqshya">LaQshya</string>
+    <string name="menu_nuhm">National Urban Health Mission(NUHM)</string>
+    <string name="menu_rti">Right To Information</string>
+    <string name="menu_qa">Quality Assurance</string>
+    <string name="menu_fssai">Food Safety and Standards Authority of India(FSSAI)</string>
+    <string name="menu_cea">Clinical Establishments Act(CEA)</string>
+
+    <string name="menu_dnv">Drug And Vaccine Distribution Management</string>
+    <string name="menu_free">Free DiagnosticsS Services Initiative</string>
+    <string name="menu_amrit">Affordable Medecines(Amrit)</string>
+    <string name="menu_hpe">Health Public Enterprises</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_sugam">SUGAM(CDSCO)</string>
+    <string name="menu_internationalhealth">International Health</string>
+    <string name="menu_communityProcess">Community Processes</string>
+    <string name="menu_humanResouce">Human Resources</string>
+    <string name="menu_alliedHealthSciences">Allied Health Sciences(AHS)</string>
+    <string name="menu_nursing">Nursing</string>
+    <string name="menu_medicalEducation">Medical Education</string>
+    <string name="menu_atr">Action Taken Report(ATR)</string>
+
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mi_survillance">MiSurvillanceActivity</string>
+    <string name="title_activity_ihip">IhipActivity</string>
+    <string name="title_activity_pbs">PbsActivity</string>
+    <string name="title_activity_mi_quality_of_health_service">MiQualityOfHealthServiceActivity
+    </string>
+    <string name="title_activity_mi_drugs_and_diagnostics">MiDrugsAndDiagnostics</string>
+
+    <string name="title_activity_mi_regulations">MiRegulations</string>
+
+    <string name="title_activity_mi_international_health">MiInternationalHealth</string>
+
+    <string name="title_activity_international_health">International Health</string>
+    <string name="title_activity_tpmssy">PMSSY</string>
+    <string name="title_activity_t_nhrr">NHRR</string>
+    <string name="title_activity_t_pmjay">AB-PMJAY</string>
+    <string name="title_activity_t_cghs">CGHS</string>
+    <string name="title_activity_tmhealth">M-HEALTH</string>
+    <string name="title_activity_trch">RCH</string>
+    <string name="title_activity_familyplaning">FAMILY PLANING</string>
+    <string name="title_activity_immunization">IMMUNIZATION</string>
+    <string name="title_activity_childhealth">CHILD HEALTH</string>
+    <string name="title_activity_maternalhealth">MATERNAL HEALTH</string>
+    <string name="title_activity_tpbs">PBS/NCD</string>
+    <string name="title_activity_tors">ORS</string>
+    <string name="title_activity_tehospital">E-HOSPITAL</string>
+    <string name="title_activity_tsugam">SUGAM</string>
+    <string name="title_activity_elderly">NPHCE</string>
+    <string name="title_activity_tmeraaspataal">MERA ASPATAAL</string>
+    <string name="title_activity_DrugsAndVaccineDistributionManagementActivity">DVDMS</string>
+    <string name="title_activity_internationalhealth">INTERNATIONAL HEALTH</string>
+    <string name="title_activity_hmis">HMISActivity</string>
+    <string name="title_activity_ambulance">AMBULANCES</string>
+    <string name="title_activity_notp">NOTP</string>
+    <string name="title_activity_bloodbank">BLOOD BANK</string>
+    <string name="title_activity_fru">FIRST REFERRAL UNIT</string>
+    <string name="title_activity_dialysis">DIALYSIS</string>
+    <string name="title_activity_free">FREE DIAGNOSTICS SERVICES INITIATIVE</string>
+    <string name="title_activity_amrit">AMRIT</string>
+    <string name="title_activity_hpe">HPE</string>
+    <string name="title_activity_qa">QUALITY ASSURANCE</string>
+    <string name="title_activity_mi_pending_references">MiPendingReferences</string>
+    <string name="title_activity_atr">ATR</string>
+    <string name="title_activity_ncdc">NCDC</string>
+    <string name="title_activity_ntcp">NTCP</string>
+    <string name="title_activity_lepto">LEPTOSPIROSIS</string>
+    <string name="title_activity_cea">CEA</string>
+    <string name="title_activity_emr">EMR</string>
+    <string name="title_activity_fssai">FSSAI</string>
+    <string name="title_activity_rti">RTI</string>
+    <string name="title_activity_ddap">DDAP</string>
+
+    <string name="title_activity_hr">HUMAN RESOURCE</string>
+    <string name="title_activity_nursing">NURSING</string>
+    <string name="title_activity_naco">NACO</string>
+    <string name="title_activity_pczd">PCZD</string>
+    <string name="title_activity_npcdcs">NPCDCS</string>
+    <string name="title_activity_amr">AMR</string>
+    <string name="title_activity_nvbdcp">NVBDCP</string>
+    <string name="title_activity_nppcd">NPPCD</string>
+    <string name="title_activity_nppcf">NPPCF</string>
+    <string name="title_activity_vhp">VHP</string>
+    <string name="title_activity_nlep">NLEP</string>
+    <string name="title_activity_nfhs">NFHS and SRS</string>
+    <string name="title_activity_cp">COMMUNITY PROCESS</string>
+
+    <string name="btn_fru_heading1">Number of Fully Operational FRUs (5 C-section/Month for CHC and SDH) against required Number of FRUs</string>
+    <string name="btn_fru_heading2">Number of Fully Operational FRUs (10 C-section/Month for DH) against required Number of FRUs</string>
+    <string name="btn_ambulance_h1">Total Advanced Life Support(ALS) Ambulances Operational against Required</string>
+    <string name="btn_ambulance_h2">Total Basic Life Support(BLS) Ambulances Operational against Required</string>
+    <string name="btn_ambulance_h3">Average response time (call to scene) ALS (min:sec)</string>
+    <string name="btn_ambulance_h4">Average response time (call to scene) BLS (min:sec)</string>
+    <string name="btn_familyplaning_h1">Post Partum Intrauterine Copper Device (PPIUCD) Acceptance Rate(%) - Public</string>
+    <string name="btn_familyplaning_h2">Number of Injectable Doses Given</string>
+    <string name="btn_maternalhealth_h1">Percentage of First Trimester Registration during Antenatal Care (ANC)</string>
+    <string name="btn_maternalhealth_h2">Percentage of Institutional Delivery</string>
+    <string name="btn_maternalhealth_h3">Percentage of 4 or more ANC Checkup</string>
+    <string name="btn_maternalhealth_h4">Number of ANCs conducted under Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)</string>
+    <string name="btn_maternalhealth_h5">Total Number of Public Health Facilities selected under LaQshya</string>
+    <string name="btn_maternalhealth_h6">Total Number of Labour Rooms and Operation Theatres (OT) State Certified under LaQshya</string>
+    <string name="btn_maternalhealth_h7">Total Number of Labour Rooms (LR) and Operation Theatres (OT) Nationally Certified under LaQshya</string>
+    <string name="btn_immunization_h1">Full Immunization Coverage</string>
+    <string name="btn_immunization_h2">Rotavirus Vaccine Coverage</string>
+    <string name="btn_immunization_h3">Measles/MR 1st Dose Coverage</string>
+    <string name="btn_immunization_h4">Measles/MR 2nd Dose Coverage</string>
+    <string name="btn_childhealth_h1">Number of Children Covered under National Deworming Day Coverage (NDD)</string>
+    <string name="btn_childhealth_h2">Number of Children Covered under Intensified Diarrhoea Control Fortnight Coverage (IDCF)</string>
+    <string name="btn_childhealth_h3">Number of Children Screened by Mobile Health Team (MHT) under Rashtriya Bal Swasthya Karyakram (RBSK)</string>
+    <string name="btn_childhealth_h4">Number of Newborns Received Complete Home Visits under Home Based Newborn Care (HBNC) Program</string>
+    <string name="btn_childhealth_h5">Number of Sick Newborns Received Treatment in Special Newborn Care Units (SNCUs)</string>
+    <string name="btn_ncdc_h1">MOU Signed Between Govt of India And State Govt</string>
+    <string name="btn_ncdc_h2">Lease Deed Signed/Land Transfered</string>
+    <string name="btn_ncdc_h3">Money Released For Construction of Branches(In Lakh)</string>
+    <string name="btn_ncdc_h4">Total Amount(In Lakh)</string>
+    <string name="btn_ntcp_h1">No. of calls Landed at Quitline</string>
+    <string name="btn_ntcp_h2">No. of Registered Quitters</string>
+    <string name="btn_ntcp_h3">No. of Persons who have quit</string>
+    <string name="btn_ntcp_h4">Total No. of Districts under NTCP</string>
+    <string name="btn_ntcp_h5">No. of Persons fined under COTPA</string>
+    <string name="btn_ntcp_h6">Amount of fine imposed (in RS.)</string>
+    <string name="btn_ntcp_h7">No. of TCC</string>
+    <string name="btn_ntcp_h8">No. of Persons who availed TC services</string>
+    <string name="btn_lepto_h1">Total Number of Districts Affected</string>
+    <string name="btn_lepto_h2">Total Number of Leptospirosis outbreaks reported</string>
+    <string name="btn_lepto_h3">Total Number of Laboratory Confirmed Cases</string>
+    <string name="btn_cea_h1">Total Number of Clinical Establishments Registered</string>
+    <string name="btn_cea_h2">Number of States/UTs that have adopted the CEA Act</string>
+    <string name="btn_cea_h3">Number of States/UTs that have Not adopted the CEA Act</string>
+    <string name="btn_cea_h4">Total Number of Standard Treatment Guidelines</string>
+    <string name="btn_emr_h1">No. of Skill Centres on National Emergency Life Support</string>
+    <string name="btn_emr_h2">Number of personnel trained in Emergency Life Support</string>
+    <string name="btn_emr_h3">Number of Medical Personnel trained</string>
+    <string name="btn_emr_h4">Number of CBRN Medical Management Centres</string>
+    <string name="btn_emr_h5">Number of Health Emergency Operation Centres</string>
+    <string name="btn_fssai_h1">Total Number of State Food Laboratories strengthened</string>
+    <string name="btn_fssai_h2">Total Number Primary Food Testing Laboratories</string>
+    <string name="btn_fssai_h3">Total Number FSSAI(Manpower Posts)</string>
+    <string name="btn_fssai_h4">Total Number Licensing and Registration of FBOs</string>
+    <string name="btn_fssai_h5">Total Number of Food Safety On Wheels(FSWS) Provided</string>
+    <string name="btn_fssai_h6">Total Number of Referral Food Testing Laboratories</string>
+    <string name="btn_rti_h1">RTI Applications Received</string>
+    <string name="btn_rti_h2">RTI Applications Disposed Off</string>
+    <string name="btn_rti_h3">First Appeal Received</string>
+    <string name="btn_rti_h4">First Appeal Disposed Off</string>
+    <string name="btn_ddap_h1">Total Number of New Registrations</string>
+    <string name="btn_ddap_h2">Total Number of Follow-up</string>
+    <string name="btn_ddap_h3">Total No. of Patients IPD</string>
+    <string name="btn_ddap_h4">Total Number of Patients</string>
+    <string name="title_activity_dvdms">DVDMSActivity</string>
+    <string name="title_hr_h1">Vacancies (20 %) of Medical Officers (including specialists) against Sanctioned Posts (Both Regular and NRHM Posts)</string>
+    <string name="title_hr_h2">Vacancies (53 %) of Staff Nurse against Sanctioned Posts (Both Regular and NRHM Posts)</string>
+    <string name="title_hr_h3">Vacancies (27 %) of Medical Officer (including specialists) against Sanctioned Posts under NUHM</string>
+    <string name="title_hr_h4">Vacancies (33 %) of Staff Nurse against Sanctioned Posts under NUHM</string>
+    <string name="btn_hpe_h1">Total Number of Products</string>
+    <string name="btn_hpe_h2">Total Amount received during the month(in Lakh)</string>
+    <string name="btn_hpe_h3">Total Number of Pharma Retail Outlets</string>
+    <string name="btn_hpe_h4">Total Number of Labs</string>
+    <string name="btn_hpe_h5">Total Number of Hospitals</string>
+    <string name="btn_hpe_h6">Total Number of Projects in Hand PMC</string>
+    <string name="btn_naco_h1">Number of HIV Tests Conducted</string>
+    <string name="btn_naco_h2">Number of PLHIV on Anti-Retroviral Therapy (ART)</string>
+    <string name="btn_naco_h3">Number of PLHIV Tested for Viral Load</string>
+    <string name="btn_amr_h1">Total Labs enrolled under the AMR Programme</string>
+    <string name="btn_amr_h2">Total Labs reporting AMR surveillance data</string>
+    <string name="btn_pczd_h1">Total Health and Veterinary professionals trained</string>
+    <string name="btn_npcdcs_h1">District NCD Cells-Functional</string>
+    <string name="btn_npcdcs_h2">CHC NCD Clinics-Functional</string>
+    <string name="btn_npcdcs_h3">District NCD Clinics-Functional</string>
+    <string name="btn_npcdcs_h4">Cardiac Care Units (CCU)-Functional</string>
+    <string name="btn_npcdcs_h5">District Day Care Centres-Functional</string>
+    <string name="btn_npcdcs2_h1">Under Opportunistic Screening(Total persons screened)</string>
+    <string name="btn_npcdcs2_h2">Under Outreach Screening(Total persons screened)</string>
+    <string name="btn_nppcd_h1">Total Number of Districts under NPPCD</string>
+    <string name="btn_nppcd_h2">Total Number of District made Operational under NPPCD</string>
+    <string name="btn_nppcf_h1">Number of Districts (cumulative covered under NPPCF)</string>
+    <string name="btn_nppcf_h2">Budget Allocation for Tertiary Care Component</string>
+    <string name="btn_vhp_h1">Regional labs doing enhanced case reporting</string>
+    <string name="btn_vhp_h2">Districts reporting on acute hepatitis surveillance</string>
+    <string name="btn_nlep_h1">Cases on Record</string>
+    <string name="btn_nlep_h2">New Cases Detected</string>
+    <string name="btn_nlep_h3">Grade II Disability (G2D) cases (Percentage in New Cases)</string>
+    <string name="btn_nlep_h4">No. of Female Cases (Percentage in New cases)</string>
+    <string name="btn_nlep_h5">No. of Child Cases (Percentage in New cases)</string>
+    <string name="btn_srs_h1">Crude Birth Rate (CBR)- 2017</string>
+    <string name="btn_srs_h2">Crude Death Rate (CDR)- 2017</string>
+    <string name="btn_srs_h3">Total Fertility Rate (TFR)- 2017</string>
+    <string name="btn_srs_h4">Infant Mortality Rate (IMR)- 2017</string>
+    <string name="btn_srs_h5">Maternal Mortality Ratio (MMR)- 2015-17</string>
+    <string name="btn_srs_h6">Under-five mortality rate (U5)- 2017</string>
+    <string name="btn_srs_h7">Neonatal mortality rate (NMR)- 2017</string>
+    <string name="btn_notp_h1">Number of States/UTs that have Adopted Transplantation of Human Organs Act</string>
+    <string name="btn_notp_h2">Number of States/UTs that have Adopted Transplantation of Human Organs and Tissues Act</string>
+    <string name="btn_notp_h3">Hospitals for Organ And Tissue Retrieval/Transplantation and Eye Banks</string>
+    <string name="btn_notp_h4">Number of Organ/Tissue Donors who have pledged for Organ and/or Tissue donation after death</string>
+    <string name="btn_notp_h5">Transplant trends in the Country</string>
+    <string name="btn_notp_h6">No. of Organ allocation on Central Registry</string>
+    <string name="btn_notp_h7">No. of Wait List Patients Organ-Wise</string>
+    <string name="btn_notp_h8">Number of Regional Organ and Tissue Transplant Organisation(Rotto)</string>
+    <string name="btn_notp_h9">Number of State Organ and Tissue Transplant Organisation(Sotto)</string>
+    <string name="btn_cp_h1">Number of VHSNCs formed against Number of Revenue Villages</string>
+    <string name="btn_cp_h2">Vacancies of Rogi Kalyan Samiti(RKSs) against Total Number of PHCs+CHCs+SDHs+DHs
+</string>
+    <string name="btn_cp_h3">Number of ASHAs in position against approved strength(Both in Rural and Urban areas)</string>
+    <string name="btn_cp_h4">Percentage of ASHAs whose Honorarium is Paid through DBT</string>
+    <string name="btn_cp_h5">Percentage of MAS Created against Approve</string>
+    <string name="title_activity_mi_human_resources">MiHumanResources</string>
+    <string name="title_activity_minister_human_resource">MinisterHumanResource</string>
+
+</resources>
